@@ -24,3 +24,5 @@ EXPOSE 5000
 
 # Run the Flask APP
 #CMD python src/app.py
+notifications:
+  irc: "chat.freenode.net#test-irc"
